@@ -1,4 +1,4 @@
-package com.android.phasebeam;
+package org.nnn1590.phasebeam;
 
 import android.content.Context;
 import android.renderscript.RSSurfaceView;

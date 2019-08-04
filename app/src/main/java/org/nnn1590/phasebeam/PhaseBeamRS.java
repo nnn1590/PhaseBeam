@@ -1,4 +1,4 @@
-package com.android.phasebeam;
+package org.nnn1590.phasebeam;
 
 import static android.renderscript.Sampler.Value.NEAREST;
 import static android.renderscript.Sampler.Value.WRAP;

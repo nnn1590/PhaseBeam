@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.android.phasebeam"
-      android:versionCode="1"
-      android:versionName="1.0">
+          package="org.nnn1590.phasebeam"
+          android:versionCode="1"
+          android:versionName="1.0">
     <uses-sdk android:minSdkVersion="13" />
 
     <uses-feature android:name="android.software.live_wallpaper" />
 
     <application android:icon="@drawable/icon" android:label="@string/wallpaper_label">
         <service
-            android:name=".PhaseBeamWallpaper"
-            android:label="@string/wallpaper_label"
-            android:permission="android.permission.BIND_WALLPAPER">
+                android:name=".PhaseBeamWallpaper"
+                android:label="@string/wallpaper_label"
+                android:permission="android.permission.BIND_WALLPAPER">
             <intent-filter>
                 <action android:name="android.service.wallpaper.WallpaperService" />
             </intent-filter>
